@@ -18,6 +18,8 @@ Today, I was looking through my Github repos, and realised I had completely forg
 - Scully
 - Bootstrap
 
+[Github repository](https://github.com/Ocoldwell/ocoldwell-jamstack-blog)
+
 ### Problems encountered
 
 The tutorial in the book is assuming that you're using a version of Angular 12.0.0 and Scully versions of around 1.0. I wanted to ensure I was using the latest of both so I updated Scully to 2.0 and Angular to 13. This came with problems of dependency issues as Scully was assuming that I'd still be using Angular 12, though in the documentation on the website it mentioned that it would be compatible, so it may be just a case of a newer version with updated dependencies to be on NPM. Anyway, I forced an update and it seems to have resolved the issues but if any further issues come up, it will be useful to refer back to this.
