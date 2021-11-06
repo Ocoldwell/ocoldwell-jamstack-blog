@@ -10,7 +10,7 @@ In work today, I found an edge case bug in the auth flow introduced by my bug in
 
 I've been remiss in working on actual projects outside of work. Just after I'd started my new job, and career, I'd been working through Angular Projects Second Edition by Aristeidis Bampakos and I'd just completed the second project in the book to build a statically generated Jamstack style Angular website with Scully.
 
-Today, I was looking through my Github repos, and realised I had completely forgetten everything from building this project, so I spent this evening following the tutorial and rebuilding it and figured it would be useful to extend it out and make it into a blog project for my 100 Days of Code journey that I recently started on Twitter. 140 characters is quite a limiting amount to convey my thoughts and I've never been a huge fan of threads.
+Today, I was looking through my Github repos, and realised I had completely forgetten everything from building this project, so I spent this evening following the tutorial and rebuilding it and figured it would be useful to extend it out and make it into a blog project for my 100 Days of Code journey that I recently started on Twitter. 140 characters is quite a limiting amount to convey my thoughts and I've never been a huge fan of threads. Here's the [repository](https://github.com/Ocoldwell/ocoldwell-jamstack-blog)
 
 ## Tech Stack Used
 
