@@ -6,6 +6,8 @@ h1 {
   width: fit-content;
 }
 
-#content-wrap {
-  padding-bottom: 2.5rem;
+.content-wrap {
+  padding: 0.25rem;
+  margin: 0.25rem;
+  min-height: 80vh;
 }

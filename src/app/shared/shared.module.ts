@@ -1,18 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FooterComponent } from './footer/footer.component';
-
-
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
-  declarations: [
-    FooterComponent
-  ],
-  imports: [
-    CommonModule
-  ],
-  exports: [
-    FooterComponent
-  ]
+  declarations: [FooterComponent],
+  imports: [CommonModule, FontAwesomeModule],
+  exports: [FooterComponent],
 })
-export class SharedModule { }
+export class SharedModule {}

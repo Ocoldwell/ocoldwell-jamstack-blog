@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-footer',
@@ -7,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
   currentDate = new Date();
+  faTwitter = faTwitter;
+  faLinkedin = faLinkedin;
 
   constructor() {}
 

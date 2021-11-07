@@ -1,8 +1,23 @@
-<footer
-  class="navbar-light footer"
-  style="background-color: rgba(0, 0, 0, 0.2)"
->
-  <div class="container-fluid">
-    <p>Copyright @{{ currentDate | date: "y" }}. All Rights Reserved</p>
+<footer class="navbar-light footer d-flex" style="background-color: #00000033">
+  <div
+    class="container-fluid d-flex justify-content-between align-items-center"
+  >
+    <p class="text">
+      Copyright @{{ currentDate | date: "y" }}. All Rights Reserved
+    </p>
+    <div class="d-flex">
+      <a
+        class="nav-link"
+        href="https://www.linkedin.com/in/ollie-coldwell-594b53171/"
+      >
+        <fa-icon [icon]="faLinkedin"></fa-icon>
+      </a>
+      <a
+        class="nav-link"
+        href="https://www.linkedin.com/in/ollie-coldwell-594b53171/"
+      >
+        <fa-icon [icon]="faTwitter"></fa-icon>
+      </a>
+    </div>
   </div>
 </footer>
