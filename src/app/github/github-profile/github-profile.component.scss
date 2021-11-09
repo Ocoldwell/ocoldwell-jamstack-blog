@@ -1,0 +1,26 @@
+.toolbar {
+  height: 60px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  fa-icon {
+    font-size: 1.5rem;
+    color: white;
+    margin: 0 16px;
+  }
+  p {
+    margin: 0 0 0 16px;
+  }
+  a {
+    margin-bottom: 5px;
+  }
+
+  fa-icon:hover {
+    opacity: 0.8;
+  }
+
+  .content {
+    margin: 52px auto 32px;
+    padding: 0 16px;
+  }
+}

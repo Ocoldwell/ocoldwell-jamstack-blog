@@ -7,7 +7,9 @@ import { ContactModule } from './contact/contact.module';
 import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
 import { ScullyLibModule } from '@scullyio/ng-lib';
+import { HttpClientModule } from '@angular/common/http';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { GithubModule } from './github/github.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -17,8 +19,10 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     CoreModule,
     SharedModule,
     ContactModule,
+    GithubModule,
     ScullyLibModule,
     FontAwesomeModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
