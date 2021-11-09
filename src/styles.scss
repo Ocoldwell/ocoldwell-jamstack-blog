@@ -1,1 +1,8 @@
 @import "~bootstrap/scss/bootstrap";
+
+fa-icon {
+  font-size: 1.5rem;
+  :hover {
+    opacity: 0.8;
+  }
+}
